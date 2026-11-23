@@ -59,19 +59,19 @@ No JSON files or database are used. The CSV is created in the Run configuration'
 
 ## Testing Summary
 
-The following scenarios were run against the provided Python file in a temporary directory, without altering a real inventory file:
-Scenario	Observed outcome
-Start with no CSV file	Printed a first-run message and displayed the menu
-Add two items	Created CSV rows for both items
-Add a duplicate ID	Rejected the duplicate
-Assign an item needing repair	Rejected the assignment
-Assign a good item twice	First assignment worked; second was rejected
-Look up a player	Listed the player's assigned item
-Display maintenance list	Listed an item marked Needs Repair
-Run end-of-season report	Listed an outstanding item before its return
-Return an item and rerun report	Reported that all gear had been returned
-Exit and restart	Loaded saved inventory from the CSV
-Enter blank ID or invalid search option	Printed an error message instead of exiting unexpectedly
+| Scenario | Observed outcome |
+|---|---|
+| Start with no CSV file | Printed a first-run message and displayed the menu |
+| Add two items | Created CSV rows for both items |
+| Add a duplicate ID | Rejected the duplicate |
+| Assign an item needing repair | Rejected the assignment |
+| Assign a good item twice | First assignment worked; second was rejected |
+| Look up a player | Listed the player's assigned item |
+| Display maintenance list | Listed an item marked Needs Repair |
+| Run end-of-season report | Listed an outstanding item before its return |
+| Return an item and rerun report | Reported that all gear had been returned |
+| Exit and restart | Loaded saved inventory from the CSV |
+| Enter blank ID or invalid search option | Printed an error message instead of exiting unexpectedly |
 
 ## AI Use
 
