@@ -2,10 +2,10 @@
 
 ## Student and Project Information
 
-- Student name:
-- GitHub username:
-- Project title:
-- Application purpose:
+- Student name: Noah Claxton
+- GitHub username: Noah-Claxton
+- Project title: Football Equipment Inventory Tracker
+- Application purpose: Track Inventory and Player Equipment
 
 ## How to Run the Application
 
